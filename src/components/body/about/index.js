@@ -1,5 +1,5 @@
 import React from "react";
-// import SocialContact from "../../common/social-contact";
+ import SocialContact from "../../common/social-contact";
 import "./about.css";
 function About() {
   return (
@@ -18,7 +18,7 @@ function About() {
           />
         </div>
       </div>
-      {/* <SocialContact /> */}
+      <SocialContact />
     </div>
   );
 }

@@ -16,8 +16,7 @@
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  max-width: 70%;
-  justify-content: flex-end;
+  max-width: 100%;
 }
 @media only screen and (max-width: 720px) {
   .skills-list {
