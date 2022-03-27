@@ -1,6 +1,29 @@
 export const ProjectData = [
   {
     id: 1,
+    title: "Unacedmy Clone",
+    about: "Unacademy is India's largest online learning app",
+    tags: [
+      "HTML",
+      "CSS",
+      "JAVA SCRIPT",
+      "React",
+      "Express",
+      "Mongo DB",
+      "Node JS",
+    ],
+    features: [
+      "Login and Sign up Page",
+      "Payment page Using Razorpay",
+      "Apply coupon code to get discount ",
+      "User friendly UI",
+    ],
+    demo: "https://unacademy-clone.netlify.app/",
+    github: "https://github.com/sagarshiv13/unacademy-clone",
+    image: require("../assets/image/unacdemy.png"),
+  },
+  {
+    id: 1,
     title: "Fab India Clone",
     about:
       "Fab-India is an Indian chain store retailing garments, furnishings, fabrics & ethnic products handmade by craftspeople across rural India. ",
