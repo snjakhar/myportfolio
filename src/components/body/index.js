@@ -3,13 +3,16 @@ import "./body.css";
 import About from "./about/index";
 import Projects from "./projects/index";
 import Skills from "./skills/index";
-import Work from "./work/index";
+ import Work from "./work/index";
 import Contact from "./contact/index";
 function Body() {
   return (
     <div className="body">
       <section id="about">
         <About />
+      </section>
+      <section id="work">
+        <Work />
       </section>
       <section id="projects">
         <Projects />
@@ -18,11 +21,12 @@ function Body() {
         <Skills />
       </section>
       <section id="work">
-        <Work />
+        {/* <Work /> */}
       </section>
       <section id="contact">
         <Contact />
       </section>
+     
     </div>
   );
 }

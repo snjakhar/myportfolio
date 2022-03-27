@@ -2,6 +2,7 @@ import React from "react";
 import "./contact.css";
 import SocialContact from "../../common/social-contact/index";
 import Separator from "../../common/separator/index";
+
 function Contact() {
   return (
     <div className="contact">
@@ -21,8 +22,11 @@ function Contact() {
             <i class="fi-rr-cloud-download download-icon" />
             See My Resume
           </a>
+         
         </div>
+        
       </div>
+ 
     </div>
   );
 }

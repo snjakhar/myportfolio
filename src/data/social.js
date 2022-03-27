@@ -9,5 +9,10 @@ const SocialData = [
     icon: require("../assets/icons/linkedin.png"),
     link: "https://www.linkedin.com/in/srinivasjakhar/",
   },
+  {
+    platform: "Gmail",
+    icon: require("../assets/icons/gmail.png"),
+    link: "mailto:snjakhar.cse@gmail.com",
+  },
 ];
 export { SocialData };

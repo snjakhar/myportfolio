@@ -6,9 +6,10 @@ function About() {
     <div className="about">
       <div className="about-top">
         <div className="about-info">
-          Hello There 👋, I am <br />
-          <span className="info-name">Srinivas Jakhar</span>.<br /> I love
-          experimenting with the web.
+          Hello There 
+          <img alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"></img>
+          , I am <br />
+          <span className="info-name animate-charcter">Srinivas Jakhar</span>.<br /> A dedicated and efficient full stack web developer who is self-motivated and curious, with a keen interest in building user-centric products.
         </div>
         <div className="about-photo">
           <img
